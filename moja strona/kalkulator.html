@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>tytuł</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="banner">
+            <a href="index.html"><img src="images/banner.jpg" height="60%" width="60%" alt=""></a>
+        </div>
+        <div class="menu" id="tekst"><a>Menu</a>
+            <div class="date"><a href="data.html">aktualna data</a> </div>
+            <div class="silnia"><a href=silnia.html>silnia</a></div>
+            <div class="kalkulator"><a href="kalkulator.html">kalkulator</a></div>
+            <div class="odtylu"><a href="od_tylu.html">od tyłu</a></div>
+        </div>
+        <div class="zawartosc">
+            <div class="kalkulator">
+                <input type="text" id="liczba1" name="liczba1" required minlength="4" maxlength="8" size="10">
+                <input type="text" id="liczba2" name="liczba2" required minlength="4" maxlength="8" size="10">
+                <button type="button" onclick="dodawanie()">+</button>
+                <button type="button" onclick="odejmowanie()">-</button>
+                <button type="button" onclick="mnozenie()">*</button>
+                <button type="button" onclick="dzielenie()">/</button>
+
+
+
+
+
+            </div>
+            <div id="teks"></div>
+            <h1>Witaj świecie</h1>
+        </div>
+        <div onclick="stopk()" class="stopka">
+        </div>
+    </div>
+</body>
+
+
+</html>
